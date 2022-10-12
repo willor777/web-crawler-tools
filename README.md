@@ -16,3 +16,25 @@ val parsedWebPage: Document? = WebCrawlerTools.parseUrl("https://www.google.com"
 
 
 ```
+
+
+<h3> Gradle </h3>
+
+```groovy
+
+// Add this to your repositories
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
+
+// Then add the dependency
+dependencies {
+    implementation 'com.github.willor777:web-crawler-tools:<current-version-number>'
+}
+
+
+```
+
+Version
+https://jitpack.io/#willor777/web-crawler-tools/Tag
