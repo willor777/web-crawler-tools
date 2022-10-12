@@ -1,4 +1,4 @@
-package com.das.web_crawler_tools.com.das.webcrawlertools
+package com.das.webcrawlertools
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -9,14 +9,6 @@ import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
 import java.util.logging.Logger
 import kotlin.coroutines.coroutineContext
-
-
-val Log: Logger = Logger.getGlobal()
-
-
-fun Logger.w(tag: String, msg: String) {
-    Logger.getGlobal().warning("$tag, $msg")
-}
 
 
 object WebCrawlerTools{

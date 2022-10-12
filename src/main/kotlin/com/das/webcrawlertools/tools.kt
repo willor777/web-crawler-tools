@@ -3,6 +3,11 @@ package com.das.webcrawlertools
 import java.util.logging.Level
 import java.util.logging.Logger
 
+
+
+val Log: Logger = Logger.getGlobal()
+
+
 fun Logger.w(tag: String, msg: String) {
     Logger.getGlobal().warning("$tag\t$msg")
 }
