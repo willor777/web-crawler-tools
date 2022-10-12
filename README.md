@@ -36,5 +36,5 @@ dependencies {
 
 ```
 
-Version
-https://jitpack.io/#willor777/web-crawler-tools/Tag
+Version...
+[![](https://jitpack.io/v/willor777/web-crawler-tools.svg)](https://jitpack.io/#willor777/web-crawler-tools)
